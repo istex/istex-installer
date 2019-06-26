@@ -1,2 +1,2 @@
-# riviera-installer
-Install helper for Riviera.
+# istex-installer
+Install helper for Istex apps galaxy.

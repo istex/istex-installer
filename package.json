@@ -1,0 +1,38 @@
+{
+  "name": "istex-installer",
+  "version": "1.0.0",
+  "description": "Install helper for Istex apps galaxy",
+  "main": "./lib/istexInstaller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "load": "./bin/load.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istex/istex-installer.git"
+  },
+  "keywords": [
+    "istex",
+    "install"
+  ],
+  "author": "jj618",
+  "license": "CeCILL",
+  "bugs": {
+    "url": "https://github.com/istex/istex-installer/issues"
+  },
+  "homepage": "https://github.com/istex/istex-installer#readme",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "commander": "^2.20.0",
+    "config-component": "git+https://github.com/Inist-CNRS/node-config-component.git",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "nyc": "^14.0.0",
+    "should": "^13.2.3"
+  }
+}
