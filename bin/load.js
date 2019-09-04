@@ -9,9 +9,10 @@ const program = require('commander'),
 program
   .version(app.version)
   .usage('<command> \nwhere <command> is one of: install')
-  .command('install')
-  .action(function(cmd){
-    console.log(cmd);
+  .command('install [modules...]')
+  .options()
+  .action(function(modules){
+    console.log(arguments);
   })
 ;
 
